@@ -44,3 +44,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 50ms (Views: 24.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-02-11 21:41:20 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/ruby/2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/ruby/2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (23.0ms)
+Completed 200 OK in 107ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+

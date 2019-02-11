@@ -1,5 +1,5 @@
 current directory: /Users/user/Dev/kakutani/todo-apps/rails_app/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.3.2/ext/bootsnap
-/Users/user/.rbenv/versions/2.6.1/bin/ruby -I /Users/user/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190211-64749-1q179bq.rb extconf.rb
+/Users/user/.rbenv/versions/2.6.1/bin/ruby -I /Users/user/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190211-85004-4funhf.rb extconf.rb
 creating Makefile
 
 current directory: /Users/user/Dev/kakutani/todo-apps/rails_app/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.3.2/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/user/Dev/kakutani/todo-apps/rails_app/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.3.2/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190211-64749-1o7yvar/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190211-85004-15ajxp5/bootsnap
