@@ -31,10 +31,11 @@ $ mysql -h 0.0.0.0 -P 33306 -u mysql -p
 ### パッケージのインストール
 ```
 $ bundle install --path=vendor/bundle
+$ cd rails_app
+$ bundle install --path=vendor/bundle
 ```
 
 ### 起動
 ```
-$ cd rails_app
 $ bundle exec rails server -p 8000
 ```
