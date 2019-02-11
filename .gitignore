@@ -5,11 +5,11 @@
 *.rbc
 capybara-*.html
 .rspec
-/log
-/tmp
-/db/*.sqlite3
-/db/*.sqlite3-journal
-/public/system
+/rails_app/log
+/rails_app/tmp
+/rails_app/db/*.sqlite3
+/rails_app/db/*.sqlite3-journal
+/rails_app/public/system
 /coverage/
 /spec/tmp
 *.orig
@@ -30,7 +30,8 @@ config/master.key
 ## Environment normalization:
 /.bundle
 /vendor/bundle
-rails_app/vendor/bundle
+/rails_app/vendor/bundle
+
 
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
