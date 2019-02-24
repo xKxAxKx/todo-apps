@@ -1,5 +1,5 @@
 current directory: /Users/user/Dev/kakutani/todo-apps/rails_app/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.0/ext/websocket-driver
-/Users/user/.rbenv/versions/2.6.1/bin/ruby -I /Users/user/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190211-85004-as36l0.rb extconf.rb
+/Users/user/.rbenv/versions/2.6.1/bin/ruby -I /Users/user/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190224-73933-19jia3n.rb extconf.rb
 creating Makefile
 
 current directory: /Users/user/Dev/kakutani/todo-apps/rails_app/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.0/ext/websocket-driver
@@ -12,4 +12,4 @@ linking shared-object websocket_mask.bundle
 
 current directory: /Users/user/Dev/kakutani/todo-apps/rails_app/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.0/ext/websocket-driver
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20190211-85004-9nd1kh
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20190224-73933-1nli7fz
