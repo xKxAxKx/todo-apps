@@ -3,8 +3,8 @@
 
 ### Rails ###
 *.rbc
-capybara-*.html
-.rspec
+capyb;:ara-*.html
+.rspe
 /rails_app/log
 /rails_app/tmp
 /rails_app/db/*.sqlite3
