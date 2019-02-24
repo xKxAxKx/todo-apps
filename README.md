@@ -20,7 +20,7 @@ $ docker stop mysql-todo-apps
 
 ### 接続
 ```
-$ mysql -h 0.0.0.0 -P 33306 -u mysql -p
+$ mysql -h 0.0.0.0 -u todo
 ```
 
 ## Ruby on Rails
