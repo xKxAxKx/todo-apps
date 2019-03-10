@@ -1,34 +1,39 @@
 class PostsController < ApplicationController
+  # GET /posts
   def index
-    posts = Post.order(created_at: :desc)
-    render json: { status: 'SUCCESS', data: posts }
+    @posts = Post.order(created_at: :desc)
+    render json: @posts
   end
 
+  # GET /posts/:id
   def show
-    post = Post.find(params[:id])
-    render json: { status: 'SUCCESS', data: posts }
+    @post = Post.find(params[:id])
+    render json: @post
   end
 
+  # POST /posts
   def create
-    post = Post.new(post_params)
+    @post = Post.new(post_params)
     if post.save
-      render json: { status: 'SUCCESS', data: post }
+      render json: @post
     else:
-      render json: { status: 'ERROR', data: post.errors }
+      render json: @post.error
   end
 
+  # DELETE /posts/:id
   def destroy
-    post = Post.find(params[:id])
-    post.destroy
-    render json: { status: 'SUCCESS', data: post }
+    @post = Post.find(params[:id])
+    @post.destroy
+    render json: @post
   end
 
+  # PUT or PATCH /posts/:id
   def update
-    post = Post.find(params[:id])
-    if post.update(post_params)
-      render json: { status: 'SUCCESS', data: post }
+    @post = Post.find(params[:id])
+    if @post.update(post_params)
+      render json: @post
     else
-      render json: { status: 'SUCCESS', data: post }
+      render json: @post.error
     end
   end
 
