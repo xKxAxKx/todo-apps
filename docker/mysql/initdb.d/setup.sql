@@ -1,6 +1,7 @@
 CREATE USER 'todo'@'%';
 
-CREATE DATABASE IF NOT EXISTS `todo`;
-GRANT ALL ON `todo`.* TO 'todo'@'%';
+CREATE DATABASE IF NOT EXISTS `todo_rails`;
+CREATE DATABASE IF NOT EXISTS `todo_rails_test`;
+GRANT ALL ON *.* TO 'todo'@'%';
 
 FLUSH PRIVILEGES;
