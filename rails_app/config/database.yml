@@ -8,7 +8,7 @@ default: &default
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: todo
+  database: todo_rails
   username: todo
   host: 0.0.0.0
   port: 3306
@@ -22,7 +22,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: todo_test
+  database: todo_rails_test
 
 # production:
 #   <<: *default
