@@ -1,5 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Post, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "is valid with title" do
+      post = Post.new(
+        title: "todo_1"
+        )
+      expect(post).to be_valid
+  end
 end
