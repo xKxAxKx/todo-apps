@@ -7,4 +7,11 @@ RSpec.describe Post, type: :model do
         )
       expect(post).to be_valid
   end
+
+  it "is not valid with title" do
+      post = Post.new(
+        title: nil
+        )
+      expect(post).to be_valid
+  end
 end
