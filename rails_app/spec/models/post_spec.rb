@@ -8,6 +8,7 @@ RSpec.describe Post, type: :model do
       expect(post).to be_valid
   end
 
+  # なぜかこれがテスト通るのか意味がわからない...
   it "is not valid with title" do
       post = Post.new(
         title: nil
