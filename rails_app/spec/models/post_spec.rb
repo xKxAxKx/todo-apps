@@ -13,7 +13,6 @@ RSpec.describe Post, type: :model do
       post = Post.new(
         title: nil
       )
-      # expect(post).not_to be_valid
-      expect(post).to be_valid
+      expect(post).not_to be_valid
   end
 end
